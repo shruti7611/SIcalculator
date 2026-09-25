@@ -1,0 +1,11 @@
+cat > merge_branches <<'EOF'
+git merge bug-fix-typo
+
+Updating d9fc4b8..9c31bff
+
+Fast-forward
+
+ README.md | 1 +
+
+ 1 file changed, 1 insertion(+)
+EOF
